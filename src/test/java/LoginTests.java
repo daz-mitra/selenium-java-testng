@@ -18,28 +18,6 @@ public class LoginTests extends Drivers {
         driver.quit();
     }
 
-    @Test(dataProvider = "testdata")
-    public void testTestData(String username, String password)  {
-        driver.get(baseURL);
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.enterUsername(username);
-        loginPage.enterPassword(password);
-        loginPage.clickLogin();
-        String actualUrl = loginPage.currentURL();
-        Assert.assertEquals(actualUrl,"https://www.saucedemo.com/inventory.html","Invalid login credentials");
-    }
-
-    @DataProvider(name = "testdata")
-    public Object[][] tdata(){
-        return new Object[][]{
-                {"standard_user","secret_sauce"},
-                {"locked_out_user","secret_sauce"},
-                {"problem_user","secret_sauce"},
-                {"performance_glitch_user","secret_sauce"}
-        };
-    }
-
-
     @Test
     public void testNavigateSauceLabDemo(){
         LoginPage loginPage = new LoginPage(driver);
