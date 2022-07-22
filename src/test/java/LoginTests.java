@@ -5,7 +5,12 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import utils.Drivers;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class LoginTests extends Drivers {
+
+    private static final Logger logger = LogManager.getLogger(LoginTests.class);
 
 
     //@BeforeTest
@@ -27,6 +32,7 @@ public class LoginTests extends Drivers {
     @Test
     public void testSuccessfulLogin()  {
         LoginPage loginPage = new LoginPage(driver);
+        logger.info("Load base URL");
         loginPage.enterUsername("standard_user");
         loginPage.enterPassword("secret_sauce");
         loginPage.clickLogin();
