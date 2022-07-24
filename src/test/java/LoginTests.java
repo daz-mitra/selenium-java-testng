@@ -7,6 +7,9 @@ import utils.Drivers;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import utils.Screenshot;
+
+import java.io.IOException;
 
 public class LoginTests extends Drivers {
 
@@ -30,14 +33,16 @@ public class LoginTests extends Drivers {
     }
 
     @Test
-    public void testSuccessfulLogin()  {
+    public void testSuccessfulLogin() throws IOException {
         LoginPage loginPage = new LoginPage(driver);
+        Screenshot screenshot = new Screenshot(driver);
         logger.info("Load base URL");
         loginPage.enterUsername("standard_user");
         loginPage.enterPassword("secret_sauce");
         loginPage.clickLogin();
         String actualUrl = loginPage.currentURL();
         Assert.assertEquals(actualUrl,"https://www.saucedemo.com/inventory.html");
+        screenshot.takeFullPageScreenshot();
     }
 
     @Test

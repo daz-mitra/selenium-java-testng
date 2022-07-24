@@ -5,6 +5,9 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.ProductsPage;
 import utils.Drivers;
+import utils.Screenshot;
+
+import java.io.IOException;
 
 public class ProductTests extends Drivers {
 
@@ -26,7 +29,7 @@ public class ProductTests extends Drivers {
     }
 
     @Test
-    public void testAddToCartProduct()  {
+    public void testAddToCartProduct() throws IOException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername("standard_user");
         loginPage.enterPassword("secret_sauce");
@@ -36,6 +39,24 @@ public class ProductTests extends Drivers {
         productsPage.clickBackpack();
         productsPage.clickBackpackAddToCart();
         Assert.assertTrue(productsPage.displayBackpackRemoveButton());
+        Screenshot sc = new Screenshot(driver);
+        sc.takeScreenshot("testAddToCartProduct");
+    }
+
+    @Test
+    public void testAddTShirt() throws IOException {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.enterUsername("standard_user");
+        loginPage.enterPassword("secret_sauce");
+        loginPage.clickLogin();
+
+        ProductsPage productsPage= new ProductsPage(driver);
+        productsPage.scrollIntoTShirt();
+        productsPage.clickTShirt();
+        Assert.assertTrue(productsPage.displayTShirtButton());
+        Screenshot sc = new Screenshot(driver);
+        sc.takeScreenshot("testAddTShirt");
+
     }
     @AfterTest
     public void quitBrowser(){
