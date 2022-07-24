@@ -10,6 +10,7 @@ public class ProductsPage extends BasePage{
 
     private By prodBackpack= By.xpath("//a[@id='item_4_title_link']/div");
     private By testAllThingsTShirt= By.xpath("//a[@id='item_3_title_link']/div");
+    private By testAllThingsTShirtButton = By.id("add-to-cart-test.allthethings()-t-shirt-(red)");
     private By backpackPageTitle = By.xpath("//div[@class='inventory_details_name large_size']");
     private By btnBackpackAddToCart = By.id("add-to-cart-sauce-labs-backpack");
     private By btnRemoveBackpack = By.id("remove-sauce-labs-backpack");
@@ -40,5 +41,9 @@ public class ProductsPage extends BasePage{
     public void clickTShirt(){
         ClickButton(testAllThingsTShirt);
         logger.info("click TShirt");
+    }
+    public boolean displayTShirtButton(){
+        logger.info("element displayed");
+        return ElementDisplayed(testAllThingsTShirtButton);
     }
 }

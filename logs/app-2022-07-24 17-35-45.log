@@ -1,8 +1,0 @@
-[DEBUG] 2022-07-24 17:35:45.005 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 10:f0:05:ff:fe:77:1a:5f (auto-detected)
-[DEBUG] 2022-07-24 17:35:45.062 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-[DEBUG] 2022-07-24 17:35:45.062 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-[DEBUG] 2022-07-24 17:35:45.063 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6985699e
-[DEBUG] 2022-07-24 17:35:45.081 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-[DEBUG] 2022-07-24 17:35:45.082 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
-[DEBUG] 2022-07-24 17:35:45.082 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
-[DEBUG] 2022-07-24 17:35:45.083 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false

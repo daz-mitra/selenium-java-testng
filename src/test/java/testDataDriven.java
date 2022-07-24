@@ -25,7 +25,7 @@ public class testDataDriven extends Drivers{
         String actualUrl = loginPage.currentURL();
         Assert.assertEquals(actualUrl,"https://www.saucedemo.com/inventory.html","Invalid login credentials");
         Screenshot sc = new Screenshot(driver);
-        sc.takeScreenshot();
+        sc.takeScreenshot("testLogin");
     }
 
 }

@@ -1,3 +1,0 @@
-[DEBUG] 2022-07-24 16:05:59.402 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-[DEBUG] 2022-07-24 16:05:59.637 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xfa540387c50405c0
-[DEBUG] 2022-07-24 16:05:59.997 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels

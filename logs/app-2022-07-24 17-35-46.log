@@ -1,2 +1,0 @@
-[DEBUG] 2022-07-24 17:35:46.310 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-[DEBUG] 2022-07-24 17:35:46.536 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0c9a773bfb3ea7ea

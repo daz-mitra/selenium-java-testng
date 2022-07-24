@@ -1,3 +1,0 @@
-[INFO ] 2022-07-24 17:34:10.059 [main] ProductsPage - Click Backpack Add to cart
-[INFO ] 2022-07-24 17:34:10.067 [main] ProductsPage - element displayed
-[TRACE] 2022-07-24 17:34:10.228 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

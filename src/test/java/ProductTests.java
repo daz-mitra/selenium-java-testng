@@ -40,7 +40,7 @@ public class ProductTests extends Drivers {
         productsPage.clickBackpackAddToCart();
         Assert.assertTrue(productsPage.displayBackpackRemoveButton());
         Screenshot sc = new Screenshot(driver);
-        sc.takeScreenshot();
+        sc.takeScreenshot("testAddToCartProduct");
     }
 
     @Test
@@ -53,8 +53,9 @@ public class ProductTests extends Drivers {
         ProductsPage productsPage= new ProductsPage(driver);
         productsPage.scrollIntoTShirt();
         productsPage.clickTShirt();
+        Assert.assertTrue(productsPage.displayTShirtButton());
         Screenshot sc = new Screenshot(driver);
-        sc.takeScreenshot();
+        sc.takeScreenshot("testAddTShirt");
 
     }
     @AfterTest
