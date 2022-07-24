@@ -1,0 +1,20 @@
+[DEBUG] 2022-07-24 16:48:05.062 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-07-24 16:48:05.214 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x93ec4b8b0626db1c
+[DEBUG] 2022-07-24 16:48:05.559 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-07-24 16:48:05.588 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[TRACE] 2022-07-24 16:48:05.814 [main] XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2022-07-24 16:48:05.817 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2022-07-24 16:48:05.819 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2022-07-24 16:48:05.821 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2022-07-24 16:48:05.823 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2022-07-24 16:48:05.825 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2022-07-24 16:48:05.840 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2022-07-24 16:48:05.841 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2022-07-24 16:48:05.847 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2022-07-24 16:48:05.848 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2022-07-24 16:48:05.849 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2022-07-24 16:48:05.851 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2022-07-24 16:48:05.853 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2022-07-24 16:48:05.854 [main] XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2022-07-24 16:48:05.951 [main] XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2022-07-24 16:48:05.958 [main] XBeanDebug - Resolving type for handle themefd26doctype

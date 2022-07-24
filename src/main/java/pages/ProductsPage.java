@@ -9,6 +9,7 @@ public class ProductsPage extends BasePage{
     private static final Logger logger = LogManager.getLogger(ProductsPage.class);
 
     private By prodBackpack= By.xpath("//a[@id='item_4_title_link']/div");
+    private By testAllThingsTShirt= By.xpath("//a[@id='item_3_title_link']/div");
     private By backpackPageTitle = By.xpath("//div[@class='inventory_details_name large_size']");
     private By btnBackpackAddToCart = By.id("add-to-cart-sauce-labs-backpack");
     private By btnRemoveBackpack = By.id("remove-sauce-labs-backpack");
@@ -31,5 +32,13 @@ public class ProductsPage extends BasePage{
     public boolean displayBackpackRemoveButton(){
         logger.info("element displayed");
         return ElementDisplayed(btnRemoveBackpack);
+    }
+    public void scrollIntoTShirt(){
+        logger.info("Scrolling into T-Shirt");
+        scrollIntoView(testAllThingsTShirt);
+    }
+    public void clickTShirt(){
+        ClickButton(testAllThingsTShirt);
+        logger.info("click TShirt");
     }
 }

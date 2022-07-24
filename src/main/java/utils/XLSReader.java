@@ -13,11 +13,6 @@ import static utils.Drivers.propertyFileReader;
 public class XLSReader {
     public static String testDataPath = propertyFileReader.getProperty("config","TEST_DATA_PATH");
 
-//    public static void main(String args[]) throws IOException {
-//        XLSReader xlsReader = new XLSReader();
-//        xlsReader.getData("./TestData/testdata.xlsx","Login");
-//    }
-
     @DataProvider(name = "logindata")
     public Object[][] getData(Method m) throws IOException {
         String filePath=testDataPath;

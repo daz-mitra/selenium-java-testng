@@ -1,0 +1,6 @@
+[INFO ] 2022-07-24 16:07:23.039 [main] ProductsPage - Enter username: problem_user
+[INFO ] 2022-07-24 16:07:23.115 [main] ProductsPage - Enter password: secret_sauce
+[INFO ] 2022-07-24 16:07:23.415 [main] ProductsPage - Click login button
+[INFO ] 2022-07-24 16:07:23.417 [main] ProductsPage - Get current URL
+[INFO ] 2022-07-24 16:07:23.828 [main] ProductsPage - Enter username: performance_glitch_user
+[INFO ] 2022-07-24 16:07:23.904 [main] ProductsPage - Enter password: secret_sauce

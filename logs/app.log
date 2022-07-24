@@ -1,0 +1,5 @@
+[INFO ] 2022-07-24 17:36:51.031 [main] ProductsPage - Enter username: standard_user
+[INFO ] 2022-07-24 17:36:51.247 [main] ProductsPage - Enter password: secret_sauce
+[INFO ] 2022-07-24 17:36:51.413 [main] ProductsPage - Click login button
+[INFO ] 2022-07-24 17:36:51.414 [main] ProductsPage - Scrolling into T-Shirt
+[INFO ] 2022-07-24 17:36:51.634 [main] ProductsPage - click TShirt

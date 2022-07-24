@@ -1,0 +1,26 @@
+[DEBUG] 2022-07-24 16:04:24.003 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2022-07-24 16:04:24.029 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-07-24 16:04:24.030 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2022-07-24 16:04:24.045 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71d9cb05
+[TRACE] 2022-07-24 16:04:24.047 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@245ec1a6
+[TRACE] 2022-07-24 16:04:24.049 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@782be4eb
+[TRACE] 2022-07-24 16:04:24.050 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@38792286
+[TRACE] 2022-07-24 16:04:24.069 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@34d4860f
+[TRACE] 2022-07-24 16:04:24.071 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@665522c2
+[TRACE] 2022-07-24 16:04:24.072 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@41fe8e5f
+[TRACE] 2022-07-24 16:04:24.074 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3062f9f4
+[DEBUG] 2022-07-24 16:04:24.099 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2022-07-24 16:04:24.100 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2022-07-24 16:04:24.100 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-07-24 16:04:24.100 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2022-07-24 16:04:24.101 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2022-07-24 16:04:24.102 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-07-24 16:04:24.102 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-07-24 16:04:24.102 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-07-24 16:04:24.103 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-07-24 16:04:24.103 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-07-24 16:04:24.103 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2022-07-24 16:04:24.104 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-07-24 16:04:24.117 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-07-24 16:04:24.117 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-07-24 16:04:24.117 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
