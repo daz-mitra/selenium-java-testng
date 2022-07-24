@@ -5,6 +5,7 @@ import io.github.bonigarcia.wdm.managers.EdgeDriverManager;
 import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
@@ -41,6 +42,12 @@ public class Drivers {
                     driver= new EdgeDriver();
                     driver.manage().window().maximize();
                     break;
+                case "Headless":
+                    ChromeDriverManager.chromedriver().setup();
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    chromeOptions.addArguments("--headless");
+                    driver = new ChromeDriver(chromeOptions);
+                    driver.manage().window().maximize();
                 default:
                     ChromeDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
