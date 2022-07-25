@@ -3,11 +3,13 @@ package utils;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import io.github.bonigarcia.wdm.managers.EdgeDriverManager;
 import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
+import io.github.bonigarcia.wdm.managers.SafariDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -42,6 +44,10 @@ public class Drivers {
                     driver= new EdgeDriver();
                     driver.manage().window().maximize();
                     break;
+                case "Safari":
+                    SafariDriverManager.safaridriver().setup();
+                    driver= new SafariDriver();
+                    driver.manage().window().maximize();
                 case "Headless":
                     ChromeDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
