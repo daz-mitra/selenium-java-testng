@@ -42,7 +42,7 @@ public class LoginTests extends Drivers {
         loginPage.clickLogin();
         String actualUrl = loginPage.currentURL();
         Assert.assertEquals(actualUrl,"https://www.saucedemo.com/inventory.html");
-        screenshot.takeFullPageScreenshot();
+        screenshot.takeFullPageScreenshot("testSuccessfulLogin");
     }
 
     @Test

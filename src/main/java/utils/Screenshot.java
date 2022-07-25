@@ -19,10 +19,10 @@ public class Screenshot {
     }
 
     //Works with firefox only
-    public void takeFullPageScreenshot() throws IOException {
+    public void takeFullPageScreenshot(String testName) throws IOException {
         TimeStamp ts = new TimeStamp();
         File source = ((FirefoxDriver)driver).getFullPageScreenshotAs(OutputType.FILE);
-        FileHandler.copy(source, new File(SS_PATH+"TestScreenshot"+ts.getTimestamp()+".png"));
+        FileHandler.copy(source, new File(SS_PATH+testName+ts.getTimestamp()+".png"));
     }
 
     public void takeScreenshot(String testName) throws IOException {
