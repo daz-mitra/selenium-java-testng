@@ -5,9 +5,8 @@ name: Test Java
 
 on:
   push:
-    branches: [ "development" ]
-  pull_request:
-    branches: [ "development" ]
+    branches: 
+      - main
 
 jobs:
   build:
