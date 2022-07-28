@@ -194,8 +194,9 @@ For more information, visit [log4j](https://logging.apache.org/log4j/2.x/)
 ### Screenshots
 There are two types of screenshots available in this framework takeFullPageScreenshot(String methodName) and takeScreenshot(String methodName).
 
-1. takeScreenshot(String methodName) - takes screenshot of the current view. works for every driver
-2. takeFullPageScreenshot(String methodName) - takes screenshot of the current view. works only with firefox driver.
+1. takeScreenshot(String methodName) - takes screenshot of the current view. works for every driver. Store in Screenshots folder.
+2. takeFullPageScreenshot(String methodName) - takes screenshot of the current view. works only with firefox driver. Store in Screenshots folder.
+3. addScreenshotToReport(String testName) - takes screenshot of the current view, and attached to allure-report test step.
 
 Screenshots saves in /Screenshots folder
 
