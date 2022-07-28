@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.ProductsPage;
 import utils.Drivers;
-import utils.Screenshot;
+import utils.Screenshots;
 
 import java.io.IOException;
 
@@ -28,6 +28,7 @@ public class ProductTests extends Drivers {
         Assert.assertEquals(productsPage.getBackpackTitle(),"Sauce Labs Backpack");
     }
 
+    //works only with Firefox
     @Test
     public void testAddToCartProduct() throws IOException {
         LoginPage loginPage = new LoginPage(driver);
@@ -39,8 +40,8 @@ public class ProductTests extends Drivers {
         productsPage.clickBackpack();
         productsPage.clickBackpackAddToCart();
         Assert.assertTrue(productsPage.displayBackpackRemoveButton());
-        Screenshot sc = new Screenshot(driver);
-        sc.takeScreenshot("testAddToCartProduct");
+        Screenshots sc = new Screenshots(driver);
+        sc.takeFullPageScreenshot("TestAddTShirt");
     }
 
     @Test
@@ -54,9 +55,8 @@ public class ProductTests extends Drivers {
         productsPage.scrollIntoTShirt();
         productsPage.clickTShirt();
         Assert.assertTrue(productsPage.displayTShirtButton());
-        Screenshot sc = new Screenshot(driver);
-        sc.takeScreenshot("testAddTShirt");
-
+        Screenshots sc = new Screenshots(driver);
+        sc.takeScreenshot("testAddToCartProduct");
     }
     @AfterTest
     public void quitBrowser(){

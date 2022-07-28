@@ -1,13 +1,12 @@
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import utils.Drivers;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import utils.Screenshot;
+import utils.Screenshots;
 
 import java.io.IOException;
 
@@ -35,7 +34,7 @@ public class LoginTests extends Drivers {
     @Test
     public void testSuccessfulLogin() throws IOException {
         LoginPage loginPage = new LoginPage(driver);
-        Screenshot screenshot = new Screenshot(driver);
+        Screenshots screenshot = new Screenshots(driver);
         logger.info("Load base URL");
         loginPage.enterUsername("standard_user");
         loginPage.enterPassword("secret_sauce");
