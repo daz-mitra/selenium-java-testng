@@ -222,7 +222,7 @@ Run using terminal
 $ mvn test
 
 # Run a single test class.
-$ mvn -Dtest=TestApp1 test
+$ mvn -Dtest=LoginTests test
 
 # Run multiple test classes.
 $ mvn -Dtest=TestApp1,TestApp2 test
