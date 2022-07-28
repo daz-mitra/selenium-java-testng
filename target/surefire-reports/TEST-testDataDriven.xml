@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="testDataDriven" time="9.562" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="testDataDriven" time="9.461" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="18.0.1.1+2-6"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="18"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=testDataDriven#testLogin test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=testDataDriven#testLogin test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,22 +62,25 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testDataDriven" name="testLogin" time="2.173"/>
-  <testcase classname="testDataDriven" name="testLogin" time="0.531">
+  <testcase classname="testDataDriven" name="testLogin" time="2.021"/>
+  <testcase classname="testDataDriven" name="testLogin" time="0.92">
     <failure message="Invalid login credentials expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid login credentials expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at testDataDriven.testLogin(testDataDriven.java:26)
+	at testDataDriven.testLogin(testDataDriven.java:32)
 </failure>
-    <system-out>2022-07-24 17:48:57 INFO  ProductsPage:21 - Enter username: locked_out_user
-2022-07-24 17:48:57 INFO  ProductsPage:25 - Enter password: secret_sauce
-2022-07-24 17:48:57 INFO  ProductsPage:29 - Click login button
-2022-07-24 17:48:57 INFO  ProductsPage:32 - Get current URL
+    <system-out>2022-07-28 12:04:41 INFO  ProductsPage:21 - Enter username: locked_out_user
+2022-07-28 12:04:41 INFO  ProductsPage:25 - Enter password: secret_sauce
+2022-07-28 12:04:41 INFO  ProductsPage:29 - Click login button
+2022-07-28 12:04:41 INFO  ProductsPage:32 - Get current URL
 </system-out>
+    <system-err>console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://www.saucedemo.com&quot;
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+</system-err>
   </testcase>
-  <testcase classname="testDataDriven" name="testLogin" time="0.851"/>
-  <testcase classname="testDataDriven" name="testLogin" time="6.007"/>
+  <testcase classname="testDataDriven" name="testLogin" time="0.77"/>
+  <testcase classname="testDataDriven" name="testLogin" time="5.75"/>
 </testsuite>
