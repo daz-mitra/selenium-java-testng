@@ -6,7 +6,7 @@ name: Test Java
 on:
   push:
     branches: 
-      - main
+      - development
 
 jobs:
   build:
