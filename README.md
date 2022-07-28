@@ -3,11 +3,11 @@
 Selenium WebUI Test automation framework using Java and TestNG.
 
 ## Features
-Page Object Model
+1. Page Object Model
 
-Report
+2. Reports with screenshots
 
-Log
+3. Logs
 
 ## Pre-requisite
 Install and setup path for [JDK](https://docs.oracle.com/en/java/javase/18/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A)
