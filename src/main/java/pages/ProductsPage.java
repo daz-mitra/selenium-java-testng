@@ -14,6 +14,12 @@ public class ProductsPage extends BasePage{
     private By backpackPageTitle = By.xpath("//div[@class='inventory_details_name large_size']");
     private By btnBackpackAddToCart = By.id("add-to-cart-sauce-labs-backpack");
     private By btnRemoveBackpack = By.id("remove-sauce-labs-backpack");
+    private By btnHamburgerMenu = By.id("react-burger-menu-btn");
+    private By btnLogout = By.id("logout_sidebar_link");
+    private By btnResetAppState = By.id("reset_sidebar_link");
+
+    private By testShoppingCartCount = By.className("shopping_cart_badge");
+    private By closeHamburgerMenu = By.id("react-burger-cross-btn");
 
     public ProductsPage(WebDriver driver){
         super(driver);
@@ -46,4 +52,29 @@ public class ProductsPage extends BasePage{
         logger.info("element displayed");
         return ElementDisplayed(testAllThingsTShirtButton);
     }
+
+    public void clickHamburgerMenu(){
+        logger.info("click hamburger menu");
+        ClickButton(btnHamburgerMenu);
+    }
+
+    public void clickLogoutButton(){
+        logger.info("click logout");
+        ClickButton(btnLogout);
+    }
+    public void clickRestAppStateButton(){
+        logger.info("click reset app state");
+        ClickButton(btnResetAppState);
+    }
+
+    public boolean isShoppingCartBadgeEmpty(){
+        logger.info("is shopping cart badge empty");
+        return isElementEmpty(testShoppingCartCount);
+    }
+
+    public void closeHamburgerMenu(){
+        logger.info("close hamburger menu");
+        ClickButton(closeHamburgerMenu);
+    }
+
 }

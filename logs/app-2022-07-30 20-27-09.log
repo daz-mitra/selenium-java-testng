@@ -1,0 +1,47 @@
+[DEBUG] 2022-07-30 20:27:09.000 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2022-07-30 20:27:09.013 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-07-30 20:27:09.013 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2022-07-30 20:27:09.028 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2e66bc32
+[TRACE] 2022-07-30 20:27:09.030 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4d95a72e
+[TRACE] 2022-07-30 20:27:09.031 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@28da7d11
+[TRACE] 2022-07-30 20:27:09.032 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@77b919a3
+[TRACE] 2022-07-30 20:27:09.035 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5624657a
+[TRACE] 2022-07-30 20:27:09.036 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@36681447
+[TRACE] 2022-07-30 20:27:09.037 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4d21c56e
+[TRACE] 2022-07-30 20:27:09.039 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@726aa968
+[TRACE] 2022-07-30 20:27:09.040 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7100dea
+[TRACE] 2022-07-30 20:27:09.042 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@712cfb63
+[TRACE] 2022-07-30 20:27:09.043 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@32e54a9d
+[TRACE] 2022-07-30 20:27:09.045 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15639440
+[TRACE] 2022-07-30 20:27:09.046 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@121bb45b
+[TRACE] 2022-07-30 20:27:09.048 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4faa298
+[TRACE] 2022-07-30 20:27:09.050 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1cd3b138
+[TRACE] 2022-07-30 20:27:09.051 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@151bf776
+[DEBUG] 2022-07-30 20:27:09.083 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2022-07-30 20:27:09.083 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2022-07-30 20:27:09.084 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-07-30 20:27:09.084 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2022-07-30 20:27:09.085 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2022-07-30 20:27:09.085 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-07-30 20:27:09.086 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-07-30 20:27:09.086 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-07-30 20:27:09.086 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-07-30 20:27:09.087 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-07-30 20:27:09.087 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2022-07-30 20:27:09.088 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-07-30 20:27:09.105 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-07-30 20:27:09.106 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-07-30 20:27:09.106 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2022-07-30 20:27:09.830 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 35720 (auto-detected)
+[DEBUG] 2022-07-30 20:27:09.832 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-07-30 20:27:09.832 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-07-30 20:27:09.843 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-07-30 20:27:09.844 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2022-07-30 20:27:09.880 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 4c:eb:bd:ff:fe:74:38:d1 (auto-detected)
+[DEBUG] 2022-07-30 20:27:09.916 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-07-30 20:27:09.916 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-07-30 20:27:09.917 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@668b031
+[DEBUG] 2022-07-30 20:27:09.941 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-07-30 20:27:09.941 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-07-30 20:27:09.941 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2022-07-30 20:27:09.941 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false

@@ -1,0 +1,5 @@
+[INFO ] 2022-07-31 00:41:26.131 [main] ProductsPage - Enter username: standard_user
+[INFO ] 2022-07-31 00:41:26.225 [main] ProductsPage - Enter password: secret_sauce
+[INFO ] 2022-07-31 00:41:26.548 [main] ProductsPage - Click login button
+[INFO ] 2022-07-31 00:41:26.549 [main] ProductsPage - click hamburger menu
+[INFO ] 2022-07-31 00:41:26.794 [main] ProductsPage - click logout

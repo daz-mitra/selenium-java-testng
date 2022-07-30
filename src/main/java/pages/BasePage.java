@@ -38,4 +38,8 @@ public abstract class BasePage {
         String script = "arguments[0].scrollIntoView();";
         ((JavascriptExecutor)driver).executeScript(script,driver.findElement(locator));
     }
+    public Boolean isElementEmpty(By locator){
+        new WebDriverWait(driver,Duration.ofSeconds(5));
+        return this.driver.findElements(locator).isEmpty();
+    }
 }

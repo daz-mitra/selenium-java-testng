@@ -1,0 +1,3 @@
+[DEBUG] 2022-07-31 00:40:11.983 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-07-31 00:40:11.999 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-07-31 00:40:11.999 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4

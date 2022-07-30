@@ -1,0 +1,4 @@
+[INFO ] 2022-07-30 20:47:14.223 [main] ProductsPage - Enter username: standard_user
+[INFO ] 2022-07-30 20:47:14.292 [main] ProductsPage - Enter password: secret_sauce
+[INFO ] 2022-07-30 20:47:14.608 [main] ProductsPage - Click login button
+[INFO ] 2022-07-30 20:47:14.608 [main] ProductsPage - Get current URL

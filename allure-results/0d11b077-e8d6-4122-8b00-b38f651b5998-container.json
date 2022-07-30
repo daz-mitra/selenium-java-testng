@@ -1,0 +1,1 @@
+{"uuid":"0d11b077-e8d6-4122-8b00-b38f651b5998","name":"selenium-java-testng-development","children":["d596fe1e-a27e-465c-9b8c-429cd7df0e44"],"befores":[],"afters":[{"name":"quitBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1659193033288,"stop":1659193034366}],"start":1659193033074,"stop":1659193034366}

@@ -1,0 +1,5 @@
+[INFO ] 2022-07-30 20:58:23.013 [main] ProductsPage - Enter username: standard_user
+[INFO ] 2022-07-30 20:58:23.124 [main] ProductsPage - Enter password: secret_sauce
+[INFO ] 2022-07-30 20:58:23.418 [main] ProductsPage - Click login button
+[INFO ] 2022-07-30 20:58:23.677 [main] ProductsPage - click Backpack
+[INFO ] 2022-07-30 20:58:23.938 [main] ProductsPage - Click Backpack Add to cart

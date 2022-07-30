@@ -1,0 +1,8 @@
+[INFO ] 2022-07-30 20:47:15.010 [main] ProductsPage - Enter username: locked_out_user
+[INFO ] 2022-07-30 20:47:15.077 [main] ProductsPage - Enter password: secret_sauce
+[INFO ] 2022-07-30 20:47:15.342 [main] ProductsPage - Click login button
+[INFO ] 2022-07-30 20:47:15.342 [main] ProductsPage - Get current URL
+[INFO ] 2022-07-30 20:47:15.622 [main] ProductsPage - Enter username: problem_user
+[INFO ] 2022-07-30 20:47:15.688 [main] ProductsPage - Enter password: secret_sauce
+[INFO ] 2022-07-30 20:47:15.954 [main] ProductsPage - Click login button
+[INFO ] 2022-07-30 20:47:15.954 [main] ProductsPage - Get current URL
