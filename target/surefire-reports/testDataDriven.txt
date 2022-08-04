@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: testDataDriven
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.629 sec <<< FAILURE!
+testLogin(testDataDriven)  Time elapsed: 0.92 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid login credentials expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at testDataDriven.testLogin(testDataDriven.java:32)
+
