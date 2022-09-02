@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import io.github.bonigarcia.wdm.managers.EdgeDriverManager;
 import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
 import io.github.bonigarcia.wdm.managers.SafariDriverManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,8 +16,11 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import pages.ProductsPage;
 
 public class Drivers {
+    private static final Logger logger = LogManager.getLogger(ProductsPage.class);
+
     public static WebDriver driver;
     public static PropertyFileReader propertyFileReader = new PropertyFileReader();
     public static String browser = propertyFileReader.getProperty("config","BROWSER");
@@ -60,6 +65,7 @@ public class Drivers {
                     break;
             }
         }
+        logger.info(browser+" started.");
     }
 
     @AfterSuite

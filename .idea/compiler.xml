@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="selenium-java-testng" target="15" />
+      <module name="SeleniumTestNG" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
