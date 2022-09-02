@@ -1,0 +1,6 @@
+[DEBUG] 2022-09-02 18:56:56.139 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-09-02 18:56:56.148 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2022-09-02 18:56:56.738 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 10:f0:05:ff:fe:77:1a:5f (auto-detected)
+[DEBUG] 2022-09-02 18:56:56.884 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-09-02 18:56:56.885 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-09-02 18:56:56.887 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@67ab0470

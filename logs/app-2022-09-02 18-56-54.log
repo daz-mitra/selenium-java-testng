@@ -1,0 +1,3 @@
+[DEBUG] 2022-09-02 18:56:54.008 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-09-02 18:56:54.020 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-09-02 18:56:54.021 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384

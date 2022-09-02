@@ -1,0 +1,4 @@
+[DEBUG] 2022-09-02 18:56:57.008 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-09-02 18:56:57.029 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-09-02 18:56:57.033 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2022-09-02 18:56:57.033 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false

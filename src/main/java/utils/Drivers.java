@@ -65,7 +65,6 @@ public class Drivers {
                     break;
             }
         }
-        logger.info(browser+" started.");
     }
 
     @AfterSuite

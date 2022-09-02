@@ -1,0 +1,3 @@
+[DEBUG] 2022-09-02 18:58:17.153 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-09-02 18:58:17.417 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9b9416ad4a06edc8
+[INFO ] 2022-09-02 18:58:17.753 [main] LoginTests - Load base URL

@@ -1,0 +1,5 @@
+[DEBUG] 2022-09-02 18:59:05.201 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 18104 (auto-detected)
+[DEBUG] 2022-09-02 18:59:05.211 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-09-02 18:59:05.212 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-09-02 18:59:05.809 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-09-02 18:59:05.814 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
