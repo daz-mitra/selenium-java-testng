@@ -1,0 +1,18 @@
+[DEBUG] 2022-09-02 19:16:23.092 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2022-09-02 19:16:23.169 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[TRACE] 2022-09-02 19:16:23.758 [main] XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2022-09-02 19:16:23.767 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2022-09-02 19:16:23.769 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2022-09-02 19:16:23.771 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2022-09-02 19:16:23.773 [main] XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2022-09-02 19:16:23.777 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2022-09-02 19:16:23.799 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+[TRACE] 2022-09-02 19:16:23.800 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2022-09-02 19:16:23.811 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+[TRACE] 2022-09-02 19:16:23.812 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2022-09-02 19:16:23.816 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+[TRACE] 2022-09-02 19:16:23.818 [main] XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2022-09-02 19:16:23.820 [main] XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+[TRACE] 2022-09-02 19:16:23.821 [main] XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2022-09-02 19:16:23.936 [main] XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+[TRACE] 2022-09-02 19:16:23.938 [main] XBeanDebug - Resolving type for handle themefd26doctype

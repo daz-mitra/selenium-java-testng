@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test name="D:/InterestGroups/selenium-java-testng(failed)">
+    <classes>
+      <class name="testDataDriven">
+        <methods>
+          <include name="testLogin" invocation-numbers="1"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testDataDriven -->
+    </classes>
+  </test> <!-- D:/InterestGroups/selenium-java-testng(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

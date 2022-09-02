@@ -1,0 +1,3 @@
+[DEBUG] 2022-09-02 19:16:17.540 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 14688 (auto-detected)
+[DEBUG] 2022-09-02 19:16:17.554 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-09-02 19:16:17.555 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false

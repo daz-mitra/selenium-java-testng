@@ -1,3 +1,3 @@
-[INFO ] 2022-09-02 18:59:22.247 [main] ProductsPage - Click login button
-[INFO ] 2022-09-02 18:59:22.298 [main] ProductsPage - Get current URL
-[TRACE] 2022-09-02 18:59:22.701 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2022-09-02 19:16:36.080 [main] ProductsPage - Click login button
+[INFO ] 2022-09-02 19:16:36.145 [main] ProductsPage - Get current URL
+[TRACE] 2022-09-02 19:16:36.594 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

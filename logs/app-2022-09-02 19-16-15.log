@@ -1,0 +1,53 @@
+[DEBUG] 2022-09-02 19:16:15.035 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-09-02 19:16:15.078 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-09-02 19:16:15.079 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2022-09-02 19:16:15.091 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@c9413d8
+[DEBUG] 2022-09-02 19:16:15.125 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2022-09-02 19:16:15.125 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2022-09-02 19:16:15.128 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2022-09-02 19:16:15.129 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2022-09-02 19:16:15.130 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2022-09-02 19:16:15.132 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2022-09-02 19:16:15.133 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2022-09-02 19:16:15.135 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2022-09-02 19:16:15.135 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2022-09-02 19:16:15.136 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2022-09-02 19:16:15.136 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2022-09-02 19:16:15.138 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\DERANT~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2022-09-02 19:16:15.139 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2022-09-02 19:16:15.141 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2022-09-02 19:16:15.143 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 3793747968 bytes
+[DEBUG] 2022-09-02 19:16:15.144 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2022-09-02 19:16:15.148 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2022-09-02 19:16:15.149 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2022-09-02 19:16:15.162 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2022-09-02 19:16:15.216 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2022-09-02 19:16:15.218 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2022-09-02 19:16:15.363 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2022-09-02 19:16:15.364 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2022-09-02 19:16:15.435 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2022-09-02 19:16:15.469 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-09-02 19:16:15.469 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2022-09-02 19:16:15.509 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@28c0b664
+[TRACE] 2022-09-02 19:16:15.511 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ebd78d1
+[TRACE] 2022-09-02 19:16:15.513 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@436390f4
+[TRACE] 2022-09-02 19:16:15.515 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4d157787
+[TRACE] 2022-09-02 19:16:15.517 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68ed96ca
+[TRACE] 2022-09-02 19:16:15.519 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6d1310f6
+[TRACE] 2022-09-02 19:16:15.521 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3228d990
+[TRACE] 2022-09-02 19:16:15.523 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@54e7391d
+[DEBUG] 2022-09-02 19:16:15.584 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2022-09-02 19:16:15.584 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2022-09-02 19:16:15.586 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-09-02 19:16:15.587 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2022-09-02 19:16:15.587 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2022-09-02 19:16:15.588 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-09-02 19:16:15.588 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-09-02 19:16:15.589 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-09-02 19:16:15.589 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-09-02 19:16:15.589 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-09-02 19:16:15.592 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2022-09-02 19:16:15.593 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-09-02 19:16:15.616 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-09-02 19:16:15.617 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-09-02 19:16:15.618 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
