@@ -1,0 +1,8 @@
+utils\TimeStamp.class
+pages\BasePage.class
+utils\Drivers.class
+pages\ProductsPage.class
+utils\Screenshots.class
+pages\LoginPage.class
+utils\XLSReader.class
+utils\PropertyFileReader.class
