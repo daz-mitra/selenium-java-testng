@@ -56,7 +56,7 @@ public class ProductTests extends Drivers {
         productsPage.clickTShirt();
         Assert.assertTrue(productsPage.displayTShirtButton());
         Screenshots sc = new Screenshots(driver);
-        sc.takeScreenshot("testAddToCartProduct");
+        //sc.takeScreenshot("testAddToCartProduct");
     }
     @AfterTest
     public void quitBrowser(){
